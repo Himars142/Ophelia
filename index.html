@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophelia — John Everett Millais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo serif">Ophelia</a>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#artwork">Artwork</a></li>
+                <li><a href="#author">Author</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#reception">Reception</a></li>
+                <li><a href="#music">Music</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title serif">Ophelia</h1>
+            <p class="hero-subtitle">Painting by John Everett Millais (1851–1852)</p>
+        </div>
+    </section>
+
+    <section id="overview" class="section bg-dark">
+        <div class="container">
+            <span class="section-tag">01 / Overview</span>
+            <h2 class="section-title serif">The Masterpiece</h2>
+            <p>
+                <span class="serif">Ophelia</span> is a celebrated oil painting by British Pre-Raphaelite master John Everett Millais. Depicting Shakespeare’s heroine from <em>Hamlet</em> singing while floating in a stream shortly before her death, the work is renowned for its haunting emotional stillness and incredible botanical precision.
+            </p>
+            <p>
+                The composition captures Ophelia in a state of suspended agony and ecstasy, surrounded by elaborate floral symbolism representing innocence, pain, and death. Completed between 1851 and 1852, the oil-on-canvas masterpiece (76.2 × 111.8 cm) is housed in the permanent collection at Tate Britain in London.
+            </p>
+        </div>
+    </section>
+
+    <section id="artwork" class="section bg-olive">
+        <div class="container">
+            <span class="section-tag">02 / Interactive Lens</span>
+            <h2 class="section-title serif">Botanical & Visual Analysis</h2>
+            <p>
+                Hover over the artwork to inspect Millais's painstaking floral and textural details through the magnifying loupe.
+            </p>
+
+            <div id="artwork-container" class="artwork-container">
+                <img id="artwork-img" class="artwork-img" src="images/painting.jpg" alt="Ophelia by John Everett Millais">
+                <div id="loupe" class="loupe"></div>
+            </div>
+
+            <div class="color-analysis">
+                <span class="section-tag">Color Breakdown & Proportions</span>
+                <p style="font-size: 0.9rem; margin-bottom: 0.5rem; color: #fdfdfb;">Proportional breakdown of the primary color palette across the canvas:</p>
+                
+                <div class="bar-container">
+                    <div class="bar-segment" style="width: 63%; background-color: #505429;" title="Dark Olive - 63%"></div>
+                    <div class="bar-segment" style="width: 25%; background-color: #282419;" title="Near Black - 25%"></div>
+                    <div class="bar-segment" style="width: 8%; background-color: #8c7d62;" title="Gray - 8%"></div>
+                    <div class="bar-segment" style="width: 3%; background-color: #fdfdfb;" title="White - 3%"></div>
+                    <div class="bar-segment" style="width: 2%; background-color: #b4a786;" title="Dark Khaki - 2%"></div>
+                </div>
+
+                <div class="palette-row">
+                    <div class="palette-item">
+                        <div class="swatch" style="background-color: #505429;"></div>
+                        <div class="color-info">
+                            <span class="color-name">Dark Olive (63%)</span>
+                            <span class="color-hex">#505429</span>
+                        </div>
+                    </div>
+                    <div class="palette-item">
+                        <div class="swatch" style="background-color: #282419;"></div>
+                        <div class="color-info">
+                            <span class="color-name">Near Black (25%)</span>
+                            <span class="color-hex">#282419</span>
+                        </div>
+                    </div>
+                    <div class="palette-item">
+                        <div class="swatch" style="background-color: #8c7d62;"></div>
+                        <div class="color-info">
+                            <span class="color-name">Earth Gray (8%)</span>
+                            <span class="color-hex">#8c7d62</span>
+                        </div>
+                    </div>
+                    <div class="palette-item">
+                        <div class="swatch" style="background-color: #fdfdfb;"></div>
+                        <div class="color-info">
+                            <span class="color-name">Cream White (3%)</span>
+                            <span class="color-hex">#fdfdfb</span>
+                        </div>
+                    </div>
+                    <div class="palette-item">
+                        <div class="swatch" style="background-color: #b4a786;"></div>
+                        <div class="color-info">
+                            <span class="color-name">Dark Khaki (2%)</span>
+                            <span class="color-hex">#b4a786</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="author" class="section bg-deep">
+        <div class="container">
+            <span class="section-tag">03 / The Artist</span>
+            <h2 class="section-title serif">John Everett Millais & The PRB</h2>
+            
+            <div class="profile-layout">
+                <div>
+                    <p>
+                        Sir John Everett Millais (1829–1896) was a child prodigy who entered the Royal Academy Schools at just eleven years old. In 1848, he co-founded the <strong>Pre-Raphaelite Brotherhood</strong> alongside Dante Gabriel Rossetti and William Holman Hunt.
+                    </p>
+                    <p>
+                        The Brotherhood sought to reform art by rejecting what they considered the mechanistic approach adopted by Mannerist artists. They advocated for a return to intense color, minute detail, and direct observation of nature—principles vividly embodied in <em>Ophelia</em>.
+                    </p>
+                </div>
+                <div class="profile-image-container">
+                    <img src="images/portrait.jpg" alt="John Everett Millais Self-Portrait" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="section bg-khaki-tint">
+        <div class="container">
+            <span class="section-tag">04 / Creation & Technique</span>
+            <h2 class="section-title serif">The Painting Process</h2>
+            
+            <div class="process-grid">
+                <div class="process-card">
+                    <div>
+                        <h3 class="serif">1. En Plein Air Landscape</h3>
+                        <p>
+                            Millais spent five consecutive months in 1851 painting the background outdoors along the banks of the Hogsmill River in Surrey. He worked for up to eleven hours a day in harsh elements to paint the river flora with uncompromising scientific detail.
+                        </p>
+                    </div>
+                </div>
+                <div class="process-card">
+                    <div>
+                        <h3 class="serif">2. Elizabeth Siddal in the Studio</h3>
+                        <p>
+                            Back in London, 19-year-old model Elizabeth Siddal posed in a heated bathtub filled with water to depict Ophelia's floating body. When the lamps warming the water extinguished unnoticed, Siddal suffered severe hypothermia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reception" class="section bg-dark">
+        <div class="container">
+            <span class="section-tag">05 / Critical Legacy</span>
+            <h2 class="section-title serif">Reception & Impact</h2>
+            <p>
+                When first unveiled at the Royal Academy exhibition of 1852, critical reaction was divided. Early Victorian commentators were unsettled by the juxtaposition of beauty and mortality, with some describing the flora as excessively manicured.
+            </p>
+            <p>
+                However, over time, <em>Ophelia</em> became recognized as a monumental masterpiece of Pre-Raphaelite art. Today, it stands as one of the most recognizable and adored paintings in Tate Britain, influencing generations of poets, filmmakers, and musicians.
+            </p>
+        </div>
+    </section>
+
+    <section id="music" class="section bg-deep">
+        <div class="container">
+            <span class="section-tag">06 / Modern Cultural Influence</span>
+            <h2 class="section-title serif">Ghost Bath — Funeral (2014)</h2>
+            <p>
+                Millais’s haunting composition continues to resonate across contemporary art forms. American atmospheric post-black metal band <strong>Ghost Bath</strong> chose Millais’s <em>Ophelia</em> as the cover artwork for their critically acclaimed 2014 full-length album, <em>Funeral</em>.
+            </p>
+            <p>
+                The tragic isolation and melancholic beauty of the painting mirror the album's introspective soundscapes.
+            </p>
+
+            <div class="spotify-wrapper">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/6n7iXRdANE5n7miflnIkze?utm_source=generator&si=737e4484cb8749ea" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
